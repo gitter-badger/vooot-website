@@ -1,0 +1,123 @@
+/* @override 
+	http://stemming.urbanlink.nl/sites/all/themes/stemming/css/stemming-alpha-default.css?mfhesn
+	http://stemming.urbanlink.nl/sites/all/themes/stemming/css/stemming-alpha-default.css?mfi06q
+	http://stemming.urbanlink.nl/sites/all/themes/stemming/css/stemming-alpha-default.css?mfi7sn
+	http://stemming.urbanlink.nl/sites/all/themes/stemming/css/stemming-alpha-default.css?mfi972 */
+
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+/**** TYPOGRAFIE & COLOUR ****/
+body {
+	background-color: #556270;
+	color: #fff;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+}
+p {
+	margin-bottom: 1.5em;
+}
+a:link,a:active,a:visited {
+	color: #4ECDC4;
+	text-decoration: none;
+}
+a:hover {
+	color: #ccc;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+h1#page-title {
+	font-size: 30px;
+	line-height: 32px;
+}
+#section-header {
+	background-color: #FF6B6B;
+}
+#zone-menu-wrapper {
+	background-color: #C44D58;
+	margin: 10px 0;
+}
+#zone-footer-wrapper {
+	background-color: #2B393B;
+	margin: 10px 0;
+	padding-top: 12px;
+	height: 50px;
+}
+.breadcrumb {
+	font-size: 10px;
+	line-height: 12px;
+	font-style: italic;
+	text-transform: uppercase;
+	margin: 10px 0;
+}
+/**** MENUS ****/
+/** User Menu **/
+#block-system-user-menu {
+	float: right;
+	font: 12px/20px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+#block-system-user-menu ul {}
+#block-system-user-menu ul.menu li{
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0 ;
+	padding: 0;
+}
+#block-system-user-menu ul.menu li a {
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+/** Main Menu **/
+ul#main-menu {
+	padding: 10px;
+	display: block;
+	margin: 20px 0;
+}
+#main-menu li{}
+#main-menu a{
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #C7F464;
+}
+#main-menu a:hover{
+	background-color: #222;
+	color: white;
+}
+
+/** Secondary Menu **/
+#block-menu-menu-secondary {
+	float: right;
+	font: 12px/20px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+#block-menu-menu-secondary ul {}
+#block-menu-menu-secondary ul.menu li{
+	float: left;
+	list-style: none;
+	margin: 0 20px 0 0 ;
+	padding: 0;
+}
+#block-menu-menu-secondary  ul.menu li a {
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+/** Footer Menu **/
+#block-menu-menu-footer {
+	font: 12px/20px "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+#block-menu-menu-footer ul {}
+#block-menu-menu-footer ul.menu li{
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0 ;
+	padding: 0;
+}
+#block-menu-menu-footer li a {
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+
