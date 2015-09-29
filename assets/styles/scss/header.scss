@@ -1,0 +1,46 @@
+// main: style.scss
+
+.navbar {
+  .navbar-inner {
+    background-image: none;
+    background-color: $primary;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+
+    .brand {
+      float: left;
+      img {
+        margin-top: 5px;
+        height: 30px;
+        margin-right: 20px;
+      }
+    }
+    .nav {
+      li {
+        line-height: 40px;
+        float: left;
+        a {
+          padding: 0 14px;
+          text-decoration: none;
+          color: #FFF;
+          font-size: 13px;
+          font-weight: 400;
+          text-shadow: none;
+          &:hover {
+            color: #fff;
+            background-color: transparent;
+          }
+          &.active {
+            color: #fff;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+.navbar .nav li:last-child a {
+  margin-right: 0px;
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include scripts.html %}
+    {% if site.google_analytics_id != "" %}
+    {% include google_analytics.html %}
+    {% endif %}
+  </body>
+</html>

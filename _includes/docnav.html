@@ -1,0 +1,21 @@
+<ul class="docnav nav">
+
+  {% for section in site.docsections %}
+    {% assign attr = section[0] %}
+    {% assign label = section[1] %}
+
+    {% for page in site.categories[attr] %}
+
+        {% if forloop.first %}
+          <li class="nav-header">
+            <h4>{{ label }}</h4>
+          </li>
+        {% endif %}
+
+        <li class="nav-page" data-order="{{ page.order }}">
+          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+        </li>
+
+      {% endfor %}
+  {% endfor %}
+</ul>
