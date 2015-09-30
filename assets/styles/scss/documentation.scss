@@ -1,0 +1,15 @@
+//main: style.scss
+
+.documentation {
+
+  &.page {
+
+  }
+  &.post {
+    .doc-content {
+      p {
+        color: rgb(71, 74, 84);
+      }
+    }
+  }
+}

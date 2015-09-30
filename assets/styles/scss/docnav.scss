@@ -24,6 +24,10 @@
         color: $primary;
         background-color: transparent;
       }
+      &.active {
+        color: $primary;
+        background-color: transparent;
+      }
     }
   }
 }

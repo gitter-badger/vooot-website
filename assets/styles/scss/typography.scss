@@ -3,6 +3,9 @@
 $serif: 'Raleway', sans-serif;
 $sans-serif: 'Open sans', serif;
 
+body {
+  font-family: $sans-serif;
+}
 h1,h2,h3,h4,h5,h6 {
   font-family: $serif;
 }
@@ -17,4 +20,11 @@ p {
   line-height: 1.7em;
   margin: 0 0 10px;
   color: $dark;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee;
 }

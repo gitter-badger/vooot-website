@@ -4,7 +4,7 @@
     {% assign attr = section[0] %}
     {% assign label = section[1] %}
 
-    {% for page in site.categories[attr] %}
+    {% for p in site.categories[attr] %}
 
         {% if forloop.first %}
           <li class="nav-header">
@@ -12,8 +12,11 @@
           </li>
         {% endif %}
 
-        <li class="nav-page" data-order="{{ page.order }}">
-          <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a>
+        <li class="nav-page" data-order="{{ p.order }}">
+          <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+            {{ p.title }}
+          </a>
+          <!-- <a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a> -->
         </li>
 
       {% endfor %}
