@@ -30,15 +30,48 @@
         h1 {
           color: #FFF;
         }
-
+        a.arrow {
+          color: $primary;
+          i {
+            padding-top: 1em;
+          }
+          &:hover {
+            color: darken($primary, 20);
+          }
+        }
       }
     }
   }
   .description {
-    padding: 40px 0;
-  }
-  .demo {
-    border-top: 1px solid $dark;
+    padding: 9em 0;
     text-align: center;
+  }
+
+  .features {
+    background-color: #ececec;
+    text-align: center;
+    border-top: 1px solid $lightgrey;
+    border-bottom: 1px solid $lightgrey;
+    .feature {
+      padding: 9em 0;
+      i {
+        color: $primary;
+      }
+      h3 {
+        color: $primary;
+      }
+    }
+  }
+
+  .opensource{
+    position: relative;
+    text-align: center;
+    padding: 9em 0;
+    i {
+      margin: 20px 0;
+    }
+    .btn {
+      padding: 10px 20px;
+    }
   }
 }
