@@ -1,6 +1,6 @@
 ---
 layout: documentation
-title: "Getting Started"
+title: "About"
 subtitle: "Welcome to the home of voOot API documentation!"
 categories: [documentation,introduction]
 date: 2015-09-29 20:15:52
